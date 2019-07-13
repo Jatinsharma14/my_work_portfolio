@@ -1,0 +1,4579 @@
+/*--- 360 px-----*/
+@media only screen and (max-width: 360px) {
+
+
+	*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.top-back{
+	position: relative;
+	background-image: url("../stock-photo-business-technology.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.top-data{
+	background-color: rgba(116, 120, 230, 0.5);
+	font-size: 2em!IMPORTANT;
+	text-align: center;
+	padding: 8%;
+	color: white;
+	text-shadow: 0px 0px 5px black;
+	font-weight: bold;
+}
+.top-data h1{
+	margin: 1%;
+	font-size: 13px!IMPORTANT;
+
+}
+
+
+/*----animated Buttons---*/
+.btnA{
+	display: inline-block;
+	font-size: 20px;
+	position: relative;
+	margin: 0% 1% 3% 1%;
+	width: 40px;
+	height: 40px;
+	background-color: white;
+	border-radius: 50px;
+	text-shadow: none;
+	/*border-bottom-left-radius: 50px;
+	border-top-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+	border-top-right-radius: 50px;*/
+	transition: all .5s;
+
+}
+
+.btnA:hover{
+	background-color:#ffbc00; 
+}
+.btnA:hover{
+	transform: rotateY(360deg);
+
+}
+
+.btnA i{
+	margin-top: 23%;
+}
+
+
+/*----Graphics and Web Buttons---*/
+.top-data button{
+	width: 45%!IMPORTANT;
+	height: 35px;
+	margin-bottom: 5%;
+	background-color: white;
+	font-size: 15px!IMPORTANT;
+	font-weight: bold;
+	box-shadow: 0px 0px 5px black;
+	transition: all .3s;
+}
+
+.top-data button:hover{
+	background-color: #ffbc00;	
+}
+
+
+
+/*-----navigation Bar----*/
+.navigation{
+	margin: 1.5%;
+	box-shadow: 0px 0px 5px black;
+	padding: 1%;
+}
+
+.top nav{
+	background-color:green;
+	text-align: center;
+	width:100%!IMPORTANT;
+	height: 23px!IMPORTANT;
+	margin-left: 0%!IMPORTANT;
+	padding: 1%;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	border: solid 2px white;
+	overflow: hidden;
+}
+.top nav a{
+	color: white;
+	display: block;
+	font-size: 10px!IMPORTANT;
+	text-decoration: none;
+	margin-left: 4%;
+	transition: all .3s;
+
+
+}
+
+.top nav a:hover{
+	color: orange;
+}
+
+
+/*----About-----*/
+
+.abt{
+	background-color: #07abc5;
+}
+.abt h1
+{	line-height: 30%!IMPORTANT;
+	font-size: 25px!IMPORTANT;
+	font-weight: bold;
+	margin-left:3%!IMPORTANT;
+	padding-top: 2%;
+	color: white;
+	text-shadow: 2px 2px 3px black;
+
+}
+
+.abt h3{
+	font-size: .9em!IMPORTANT;
+	font-weight: bold;
+	margin-left: 1%;
+	padding: 2%!IMPORTANT;
+	color: white;
+	text-shadow: 2px 2px 3px black;
+
+}
+
+.abt img{
+	margin-left: 10%;
+	margin-top: 11%;
+	width: 250px!IMPORTANT;
+	border: solid 10px #67c1bd;
+	box-shadow: 0px 0px 5px black;
+}
+
+
+.abt p{
+	font-size: 15px!IMPORTANT;
+	text-align: justify;
+	padding: .5%!IMPORTANT;
+	margin-top: 2%;
+	color: white;
+	font-style: cursive;
+}
+
+
+.info{
+	display: inline-block;
+	width: 100%!IMPORTANT;
+	padding:2%;
+	margin: 2%;
+	text-align: center!IMPORTANT;
+}
+
+.info h4{
+	color: white;
+	font-weight: bolder;
+}
+
+.info h5{
+	color: white;
+}
+
+#infoABC{
+	margin-left: 2%!IMPORTANT;
+}
+
+
+
+
+.abt button{
+	width: 47%!IMPORTANT;
+	height: 30px;
+	margin-left: 26%!IMPORTANT;
+	margin-bottom: 5%;
+	background-color: white;
+	font-size: 15px;
+	font-weight: bold;
+	box-shadow: 0px 0px 5px black;
+	transition: all .3s;
+}
+
+.abt button:hover{
+	background-color: #ffbc00;	
+}
+
+
+/*------Skills work Star here-----*/
+
+
+.King-skills{
+	box-shadow: 0px 0px 10px black;
+	padding: 1%;
+	margin: 5% 2% 3% 5%;
+	background-color: #a9b0e9; 
+}
+
+.King-skills h2{
+	margin: 1%;
+	color: white;
+	font-size: 3em!IMPORTANT;
+	text-shadow: 2px 2px 4px black;
+
+}
+
+.King-skills h4{
+	margin-left: 1%;
+	color: #060a41;
+	font-size: .7em!IMPORTANT;
+}
+
+
+.allskills{
+	text-align: center;
+	width: 100%;
+	margin-top: 5%;
+
+}
+.allskills h1{
+	font-size: 15px!IMPORTANT;
+	padding: .5%;
+	font-weight: bold;
+	margin-top: 5%;
+	color: white;
+	background-color: #070d3b;
+}
+
+#GDskills{
+	width: 100%;
+	padding: 3%!IMPORTANT;
+
+}
+
+#GDskills h1{
+	font-size: 1.5em!IMPORTANT;
+	text-align: center;
+	margin-top: 1%;
+	color: #060a41;
+	margin:5% 0% 10% 0%;
+}
+
+.abc1{
+	position: relative;
+	margin: 10px;
+	width: 90%;
+	height: 28px;
+	border: 2px solid #060a41;
+}
+
+.skill_info{
+	position: absolute;
+	bottom: 0%;
+	width: 90%;
+	height: 24px;
+	background-color: #060a41;
+}
+
+.skill_info h6{
+	color: white;
+	margin-left: 5%;
+	margin-top: 1%;
+}
+
+
+
+/*-----Web designing skills---*/
+
+#WDskills{
+	width: 100%;
+	color: #060a41;
+	padding: 2%;
+}
+
+#WDskills h1{
+	font-size: 1.5em!IMPORTANT;
+	text-align: center;
+	margin:26px 0% 10% 0%;
+}
+
+/*-----Education work-----*/
+.edu{
+	background-color: #818ac5;
+	padding: .5%!IMPORTANT;
+	margin: -5% 1% 8% 1%;
+	box-shadow: -3px -3px 5px black;
+}
+
+.edu h1{
+	color: white;
+	font-size: 2em;
+	text-shadow: 2px 2px 4px black;
+}
+
+
+.edu h2{
+	margin-left: 1%;
+	color: #060a41;
+	font-size: 1.5em;
+}
+
+.edu table{
+	color: white;
+	text-align: center;
+
+}
+.edu td{
+	color: black;
+	font-size: 18px;
+	width: 100px;
+}
+.edu tr{
+	background-color: white;
+	color: black;
+	width: 100px;
+}
+
+.edu h5{
+	font-size: 11px!IMPORTANT;
+	color: #060a41;
+	margin-left: 1%;
+}
+
+
+
+/*-----MY Port folio link-----*/
+.port{
+	margin:2%;
+	background-color:#a9b0e9;
+	box-shadow: 0px 0px 10px  black;
+	border: 5px solid #01053ceb; 
+}
+
+.port h1{
+	padding: 1%;
+	text-align: center;
+	color:  white;
+	text-shadow: 1px 1px 5px black;
+	font-family: adobe casalon pro;
+	letter-spacing: 5px;
+}
+#imgport{
+	text-align: center;
+
+
+}
+#imgport img{
+	width: 280px!IMPORTANT;
+	padding: .5%;
+	transition: all .5s;
+
+}
+
+#imgport :hover img{
+	padding: .5%;
+	
+	
+}
+.port button{
+	width: 40%!IMPORTANT;
+	height: 10%;
+	background-color:#01053ceb ;
+	font-size: 13px!IMPORTANT;
+	color: white;
+	font-weight: bold;
+	margin: 2%;
+	margin-left: 30%!IMPORTANT;
+	box-shadow: 1px 1px 2px black;
+
+}
+
+.imageshow{
+	display: inline-block;
+	position: relative;
+	overflow:hidden;
+	margin: 2px;
+	
+}
+.imageshow img{
+	margin: 1%;
+}
+
+
+.imageshow a{
+	position: absolute;
+	background-color: #ffbc00; 
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	padding: 3%;
+	bottom: -15%;
+	border: 1px solid #070d3b;
+	color:black;
+	left:10%;
+	font-size: .8em!IMPORTANT;
+	font-weight: bold;
+	text-decoration: none;
+	transition: all .5s;
+	
+}
+
+.imageshow:hover a{
+	bottom: 5%;
+	color:black;
+	box-shadow: 0px 0px 25px black;
+
+}
+
+.port button:hover{
+	background-color: #ffbc00;	
+
+}
+
+
+
+
+
+
+
+/*-----WorkDisplay Links-----*/
+
+#worklink{
+	margin: 7% 2% 2% 2%;
+	padding: 2%;
+	box-shadow: 0px 0px 10px #070d3b;
+	border: solid;
+}
+
+
+
+#r1{
+	font-size: 125px;
+	text-align: center;
+
+}
+
+#w1{
+	border-radius: 10%;
+	color: #070d3b;
+
+}
+
+#w1 i{
+	color: #070d3b;
+	transition: all .5s;
+}
+#w1 i:hover{
+	color:#ffa500; 
+	text-shadow: 0px 0px 10px  black;
+	transform: scale(1.2);
+
+
+}
+
+
+/*---Contact Me and Message Me-----*/
+
+.con{
+	background-image: url("../img/map view.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	margin-top: 5%;
+}
+.conT{
+	background-color: rgba(4, 88, 97, 0.68);
+
+}
+.conT h1{	
+	font-size: 2em;
+	font-weight: bold;
+	padding: 3% 25% 0% 10%;
+	color: white;
+	text-shadow: 2px 2px 3px black;
+
+}
+
+.conT h2{
+	font-size: 1.2em;
+	font-weight: bold;
+	padding: 0% 0% 2% 10%;
+	color: white;
+	text-shadow: 2px 2px 3px black;
+
+}
+.conT form{
+	margin-left: 10%;
+
+}
+.conT{
+	font-size: 19px;
+	font-weight: bold;
+}
+.conT input{
+	margin-left: 5%;
+	width: 50%;
+}
+
+.conT button{
+	padding: 3px;
+	margin: 3%;
+	width: 150px;
+	box-shadow:2px 2px 3px black; 
+	border-radius: 15px;
+	transition: all .3s;
+}
+
+
+.conT button:hover{
+	background-color: #ffbc00;	
+}
+
+.conT textarea{
+	width: 90%!IMPORTANT;
+	height: 150px;
+}
+/*-----contact Rightside Pannel----*/
+
+.condetail{
+	text-align: justify;
+	font-size: 11px!IMPORTANT;
+	padding: 3%!IMPORTANT;
+	margin: 20%;
+	color: white;
+	width: 70%;
+	background-color: rgba(0,0,0,.5);
+}
+
+.condetail i{
+	font-size: 25px;
+	text-align: center;
+}
+
+/*-----Ending---*/
+.end-links{
+	text-align: center;
+}
+
+
+.ending{
+	background-color: black;
+	text-align: center;
+	padding: .5%;
+	
+}
+
+.ending h6{
+	font-size: 12px!IMPORTANT;
+	color: white;
+}
+.ending i{
+	font-size: 25px;
+	padding: 0%;
+}
+
+}
+
+
+
+
+
+
+
+/*--- 460 px-----*/
+@media only screen and (min-width: 361px) and (max-width: 460px) {
+
+
+.top-back{
+	position: relative;
+	background-image: url("../stock-photo-business-technology.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.top-data{
+	background-color: rgba(116, 120, 230, 0.5);
+	font-size: 2em!IMPORTANT;
+	text-align: center;
+	padding: 8%;
+	color: white;
+	text-shadow: 0px 0px 5px black;
+	font-weight: bold;
+}
+.top-data h1{
+	margin: 1%;
+	font-size: 13px!IMPORTANT;
+
+}
+
+
+/*----animated Buttons---*/
+.btnA{
+	display: inline-block;
+	font-size: 20px;
+	position: relative;
+	margin: 0% 1% 3% 1%;
+	width: 40px;
+	height: 40px;
+	background-color: white;
+	border-radius: 50px;
+	text-shadow: none;
+	transition: all .5s;
+
+}
+
+.btnA:hover{
+	background-color:#ffbc00; 
+}
+.btnA:hover{
+	transform: rotateY(360deg);
+
+}
+
+.btnA i{
+	margin-top: 23%;
+}
+
+
+/*----Graphics and Web Buttons---*/
+.top-data button{
+	width: 45%!IMPORTANT;
+	height: 35px;
+	margin-bottom: 5%;
+	background-color: white;
+	font-size: 15px!IMPORTANT;
+	font-weight: bold;
+	box-shadow: 0px 0px 5px black;
+	transition: all .3s;
+}
+
+.top-data button:hover{
+	background-color: #ffbc00;	
+}
+
+
+
+/*-----navigation Bar----*/
+.navigation{
+	margin: 1.5%;
+	box-shadow: 0px 0px 5px black;
+	padding: 1%;
+}
+
+.top nav{
+	background-color:green;
+	text-align: center;
+	width:100%!IMPORTANT;
+	margin-left: 0%!IMPORTANT;
+	padding: 1%;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	border: solid 2px white;
+}
+.top nav a{
+	color: white;
+	font-size: 12px!IMPORTANT;
+	text-decoration: none;
+	margin-left: 4%;
+	transition: all .3s;
+
+
+}
+
+.top nav a:hover{
+	color: orange;
+}
+
+
+/*----About-----*/
+
+.abt{
+	background-color: #07abc5;
+}
+.abt h1
+{	line-height: 30%!IMPORTANT;
+	font-size: 25px!IMPORTANT;
+	font-weight: bold;
+	margin-left:3%!IMPORTANT;
+	padding-top: 2%;
+	color: white;
+	text-shadow: 2px 2px 3px black;
+
+}
+
+.abt h3{
+	font-size: .9em!IMPORTANT;
+	font-weight: bold;
+	margin-left: 1%;
+	padding: 2%!IMPORTANT;
+	color: white;
+	text-shadow: 2px 2px 3px black;
+
+}
+
+.abt img{
+	margin-left: 10%;
+	margin-top: 11%;
+	width: 250px!IMPORTANT;
+	border: solid 10px #67c1bd;
+	box-shadow: 0px 0px 5px black;
+}
+
+
+.abt p{
+	font-size: 15px!IMPORTANT;
+	text-align: justify;
+	padding: .5%!IMPORTANT;
+	margin-top: 2%;
+	color: white;
+	font-style: cursive;
+}
+
+
+.info{
+	display: inline-block;
+	width: 100%!IMPORTANT;
+	padding:2%;
+	margin: 2%;
+	text-align: center!IMPORTANT;
+}
+
+.info h4{
+	color: white;
+	font-weight: bolder;
+}
+
+.info h5{
+	color: white;
+}
+
+#infoABC{
+	margin-left: 2%!IMPORTANT;
+}
+
+
+
+
+.abt button{
+	width: 47%!IMPORTANT;
+	height: 30px;
+	margin-left: 26%!IMPORTANT;
+	margin-bottom: 5%;
+	background-color: white;
+	font-size: 15px;
+	font-weight: bold;
+	box-shadow: 0px 0px 5px black;
+	transition: all .3s;
+}
+
+.abt button:hover{
+	background-color: #ffbc00;	
+}
+
+
+/*------Skills work Star here-----*/
+
+
+.King-skills{
+	box-shadow: 0px 0px 10px black;
+	padding: 1%;
+	margin: 5% 2% 3% 5%;
+	background-color: #a9b0e9; 
+}
+
+.King-skills h2{
+	margin: 1%;
+	color: white;
+	font-size: 3em!IMPORTANT;
+	text-shadow: 2px 2px 4px black;
+
+}
+
+.King-skills h4{
+	margin-left: 1%;
+	color: #060a41;
+	font-size: .7em!IMPORTANT;
+}
+
+
+.allskills{
+	text-align: center;
+	width: 100%;
+	margin-top: 5%;
+
+}
+.allskills h1{
+	font-size: 15px!IMPORTANT;
+	padding: .5%;
+	font-weight: bold;
+	margin-top: 5%;
+	color: white;
+	background-color: #070d3b;
+}
+
+#GDskills{
+	width: 100%;
+	padding: 3%!IMPORTANT;
+
+}
+
+#GDskills h1{
+	font-size: 1.5em!IMPORTANT;
+	text-align: center;
+	margin-top: 1%;
+	color: #060a41;
+	margin:5% 0% 10% 0%;
+}
+
+.abc1{
+	position: relative;
+	margin: 10px;
+	width: 90%;
+	height: 28px;
+	border: 2px solid #060a41;
+}
+
+.skill_info{
+	position: absolute;
+	bottom: 0%;
+	width: 90%;
+	height: 24px;
+	background-color: #060a41;
+}
+
+.skill_info h6{
+	color: white;
+	margin-left: 5%;
+	margin-top: 1%;
+}
+
+
+
+/*-----Web designing skills---*/
+
+#WDskills{
+	width: 100%;
+	color: #060a41;
+	padding: 2%;
+}
+
+#WDskills h1{
+	font-size: 1.5em!IMPORTANT;
+	text-align: center;
+	margin:26px 0% 10% 0%;
+}
+
+/*-----Education work-----*/
+.edu{
+	background-color: #818ac5;
+	padding: .5%!IMPORTANT;
+	margin: -5% 1% 8% 1%;
+	box-shadow: -3px -3px 5px black;
+}
+
+.edu h1{
+	color: white;
+	font-size: 2em;
+	text-shadow: 2px 2px 4px black;
+}
+
+
+.edu h2{
+	margin-left: 1%;
+	color: #060a41;
+	font-size: 1.5em;
+}
+
+.edu table{
+	color: white;
+	text-align: center;
+
+}
+.edu td{
+	color: black;
+	font-size: 18px;
+	width: 100px;
+}
+.edu tr{
+	background-color: white;
+	color: black;
+	width: 100px;
+}
+
+.edu h5{
+	font-size: 12px!IMPORTANT;
+	color: #060a41;
+	margin-left: 1%;
+}
+
+
+
+/*-----MY Port folio link-----*/
+.port{
+	margin:2%;
+	background-color:#a9b0e9;
+	box-shadow: 0px 0px 10px  black;
+	border: 5px solid #01053ceb; 
+}
+
+.port h1{
+	padding: 1%;
+	text-align: center;
+	color:  white;
+	text-shadow: 1px 1px 5px black;
+	font-family: adobe casalon pro;
+	letter-spacing: 5px;
+}
+#imgport{
+	text-align: center;
+
+
+}
+#imgport img{
+	width: 280px!IMPORTANT;
+	padding: .5%;
+	transition: all .5s;
+
+}
+
+#imgport :hover img{
+	padding: .5%;
+	
+	
+}
+.port button{
+	width: 40%!IMPORTANT;
+	height: 10%;
+	background-color:#01053ceb ;
+	font-size: 13px!IMPORTANT;
+	color: white;
+	font-weight: bold;
+	margin: 2%;
+	margin-left: 30%!IMPORTANT;
+	box-shadow: 1px 1px 2px black;
+
+}
+
+.imageshow{
+	display: inline-block;
+	position: relative;
+	overflow:hidden;
+	margin: 2px;
+	
+}
+.imageshow img{
+	margin: 1%;
+}
+
+
+.imageshow a{
+	position: absolute;
+	background-color: #ffbc00; 
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	padding: 3%;
+	bottom: -15%;
+	border: 1px solid #070d3b;
+	color:black;
+	left:10%;
+	font-size: .8em!IMPORTANT;
+	font-weight: bold;
+	text-decoration: none;
+	transition: all .5s;
+	
+}
+
+.imageshow:hover a{
+	bottom: 5%;
+	color:black;
+	box-shadow: 0px 0px 25px black;
+
+}
+
+.port button:hover{
+	background-color: #ffbc00;	
+
+}
+
+
+
+
+
+
+
+/*-----WorkDisplay Links-----*/
+
+#worklink{
+	margin: 7% 2% 2% 2%;
+	padding: 2%;
+	box-shadow: 0px 0px 10px #070d3b;
+	border: solid;
+}
+
+
+
+#r1{
+	font-size: 125px;
+	text-align: center;
+
+}
+
+#w1{
+	border-radius: 10%;
+	color: #070d3b;
+
+}
+
+#w1 i{
+	color: #070d3b;
+	transition: all .5s;
+}
+#w1 i:hover{
+	color:#ffa500; 
+	text-shadow: 0px 0px 10px  black;
+	transform: scale(1.2);
+
+
+}
+
+
+/*---Contact Me and Message Me-----*/
+
+.con{
+	background-image: url("../img/map view.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	margin-top: 5%;
+}
+.conT{
+	background-color: rgba(4, 88, 97, 0.68);
+
+}
+.conT h1{	
+	font-size: 2em;
+	font-weight: bold;
+	padding: 3% 25% 0% 10%;
+	color: white;
+	text-shadow: 2px 2px 3px black;
+
+}
+
+.conT h2{
+	font-size: 1.2em;
+	font-weight: bold;
+	padding: 0% 0% 2% 10%;
+	color: white;
+	text-shadow: 2px 2px 3px black;
+
+}
+.conT form{
+	margin-left: 10%;
+
+}
+.conT{
+	font-size: 19px;
+	font-weight: bold;
+}
+.conT input{
+	margin-left: 5%;
+	width: 50%;
+}
+
+.conT button{
+	padding: 3px;
+	margin: 3%;
+	width: 150px;
+	box-shadow:2px 2px 3px black; 
+	border-radius: 15px;
+	transition: all .3s;
+}
+
+
+.conT button:hover{
+	background-color: #ffbc00;	
+}
+
+.conT textarea{
+	width: 90%!IMPORTANT;
+	height: 150px;
+}
+/*-----contact Rightside Pannel----*/
+
+.condetail{
+	text-align: justify;
+	font-size: 11px!IMPORTANT;
+	padding: 3%!IMPORTANT;
+	margin: 20%;
+	color: white;
+	width: 70%;
+	background-color: rgba(0,0,0,.5);
+}
+
+.condetail i{
+	font-size: 25px;
+	text-align: center;
+}
+
+/*-----Ending---*/
+.end-links{
+	text-align: center;
+}
+
+
+.ending{
+	background-color: black;
+	text-align: center;
+	padding: .5%;
+	
+}
+
+.ending h6{
+	font-size: 12px!IMPORTANT;
+	color: white;
+}
+.ending i{
+	font-size: 25px;
+	padding: 0%;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+/*--- 540 px-----*/
+@media only screen and (min-width: 461px) and (max-width: 540px) {
+
+
+.top-back{
+	position: relative;
+	background-image: url("../stock-photo-business-technology.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.top-data{
+	background-color: rgba(116, 120, 230, 0.5);
+	font-size: 3em!IMPORTANT;
+	text-align: center;
+	padding: 8%;
+	color: white;
+	text-shadow: 0px 0px 5px black;
+	font-weight: bold;
+}
+.top-data h1{
+	margin: 1%;
+	font-size: 17px!IMPORTANT;
+
+}
+
+
+/*----animated Buttons---*/
+.btnA{
+	display: inline-block;
+	font-size: 20px;
+	position: relative;
+	margin: 0% 1% 3% 1%;
+	width: 40px;
+	height: 40px;
+	background-color: white;
+	border-radius: 50px;
+	text-shadow: none;
+	transition: all .5s;
+
+}
+
+.btnA:hover{
+	background-color:#ffbc00; 
+}
+.btnA:hover{
+	transform: rotateY(360deg);
+
+}
+
+.btnA i{
+	margin-top: 23%;
+}
+
+
+/*----Graphics and Web Buttons---*/
+.top-data button{
+	width: 45%!IMPORTANT;
+	height: 35px;
+	margin-bottom: 5%;
+	background-color: white;
+	font-size: 15px!IMPORTANT;
+	font-weight: bold;
+	box-shadow: 0px 0px 5px black;
+	transition: all .3s;
+}
+
+.top-data button:hover{
+	background-color: #ffbc00;	
+}
+
+
+
+/*-----navigation Bar----*/
+.navigation{
+	margin: 1.5%;
+	box-shadow: 0px 0px 5px black;
+	padding: 1%;
+}
+
+.top nav{
+	background-color:green;
+	text-align: center;
+	width:100%!IMPORTANT;
+	margin-left: 0%!IMPORTANT;
+	padding: 1%;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	border: solid 2px white;
+}
+.top nav a{
+	color: white;
+	font-size: 15px!IMPORTANT;
+	text-decoration: none;
+	margin-left: 4%;
+	transition: all .3s;
+
+
+}
+
+.top nav a:hover{
+	color: orange;
+}
+
+
+/*----About-----*/
+
+.abt{
+	background-color: #07abc5;
+}
+.abt h1
+{	line-height: 30%!IMPORTANT;
+	font-size: 30px!IMPORTANT;
+	font-weight: bold;
+	margin-left:3%!IMPORTANT;
+	padding-top: 2%;
+	color: white;
+	text-shadow: 2px 2px 3px black;
+
+}
+
+.abt h3{
+	font-size: 1.2em!IMPORTANT;
+	font-weight: bold;
+	margin-left: 1%;
+	padding: 2%!IMPORTANT;
+	color: white;
+	text-shadow: 2px 2px 3px black;
+
+}
+
+.abt img{
+	margin-left: 10%;
+	margin-top: 11%;
+	width: 350px!IMPORTANT;
+	border: solid 10px #67c1bd;
+	box-shadow: 0px 0px 5px black;
+}
+
+
+.abt p{
+	font-size: 15px!IMPORTANT;
+	text-align: justify;
+	padding: .5%!IMPORTANT;
+	margin-top: 2%;
+	color: white;
+	font-style: cursive;
+}
+
+
+.info{
+	display: inline-block;
+	width: 100%!IMPORTANT;
+	padding:2%;
+	margin: 2%;
+	text-align: center!IMPORTANT;
+}
+
+.info h4{
+	color: white;
+	font-weight: bolder;
+}
+
+.info h5{
+	color: white;
+}
+
+#infoABC{
+	margin-left: 2%!IMPORTANT;
+}
+
+
+
+
+.abt button{
+	width: 40%!IMPORTANT;
+	height: 30px;
+	margin-left: 30%!IMPORTANT;
+	margin-bottom: 5%;
+	background-color: white;
+	font-size: 15px;
+	font-weight: bold;
+	box-shadow: 0px 0px 5px black;
+	transition: all .3s;
+}
+
+.abt button:hover{
+	background-color: #ffbc00;	
+}
+
+
+/*------Skills work Star here-----*/
+
+
+.King-skills{
+	box-shadow: 0px 0px 10px black;
+	padding: 1%;
+	margin: 5% 2% 3% 5%;
+	background-color: #a9b0e9; 
+}
+
+.King-skills h2{
+	margin: 1%;
+	color: white;
+	font-size: 3em!IMPORTANT;
+	text-shadow: 2px 2px 4px black;
+
+}
+
+.King-skills h4{
+	margin-left: 1%;
+	color: #060a41;
+	font-size: 1em!IMPORTANT;
+}
+
+
+.allskills{
+	text-align: center;
+	width: 100%;
+	margin-top: 5%;
+
+}
+.allskills h1{
+	font-size: 15px!IMPORTANT;
+	padding: .5%;
+	font-weight: bold;
+	margin-top: 5%;
+	color: white;
+	background-color: #070d3b;
+}
+
+#GDskills{
+	width: 100%;
+	padding: 3%!IMPORTANT;
+
+}
+
+#GDskills h1{
+	font-size: 1.5em!IMPORTANT;
+	text-align: center;
+	margin-top: 1%;
+	color: #060a41;
+	margin:5% 0% 10% 0%;
+}
+
+.abc1{
+	position: relative;
+	margin: 10px;
+	width: 90%;
+	height: 28px;
+	border: 2px solid #060a41;
+}
+
+.skill_info{
+	position: absolute;
+	bottom: 0%;
+	width: 90%;
+	height: 24px;
+	background-color: #060a41;
+}
+
+.skill_info h6{
+	color: white;
+	margin-left: 5%;
+	margin-top: 1%;
+}
+
+
+
+/*-----Web designing skills---*/
+
+#WDskills{
+	width: 100%;
+	color: #060a41;
+	padding: 2%;
+}
+
+#WDskills h1{
+	font-size: 1.5em!IMPORTANT;
+	text-align: center;
+	margin:26px 0% 10% 0%;
+}
+
+/*-----Education work-----*/
+.edu{
+	background-color: #818ac5;
+	padding: .5%!IMPORTANT;
+	margin: -5% 1% 8% 1%;
+	box-shadow: -3px -3px 5px black;
+}
+
+.edu h1{
+	color: white;
+	font-size: 2em;
+	text-shadow: 2px 2px 4px black;
+}
+
+
+.edu h2{
+	margin-left: 1%;
+	color: #060a41;
+	font-size: 1.5em;
+}
+
+.edu table{
+	color: white;
+	text-align: center;
+
+}
+.edu td{
+	color: black;
+	font-size: 18px;
+	width: 100px;
+}
+.edu tr{
+	background-color: white;
+	color: black;
+	width: 100px;
+}
+
+.edu h5{
+	font-size: 15px!IMPORTANT;
+	color: #060a41;
+	margin-left: 1%;
+}
+
+
+
+/*-----MY Port folio link-----*/
+.port{
+	margin:2%;
+	background-color:#a9b0e9;
+	box-shadow: 0px 0px 10px  black;
+	border: 5px solid #01053ceb; 
+}
+
+.port h1{
+	padding: 1%;
+	text-align: center;
+	color:  white;
+	text-shadow: 1px 1px 5px black;
+	font-family: adobe casalon pro;
+	letter-spacing: 5px;
+}
+#imgport{
+	text-align: center;
+
+
+}
+#imgport img{
+	width: 340px!IMPORTANT;
+	padding: .5%;
+	transition: all .5s;
+
+}
+
+#imgport :hover img{
+	padding: .5%;
+	
+	
+}
+.port button{
+	width: 40%!IMPORTANT;
+	height: 10%;
+	background-color:#01053ceb ;
+	font-size: 13px!IMPORTANT;
+	color: white;
+	font-weight: bold;
+	margin: 2%;
+	margin-left: 30%!IMPORTANT;
+	box-shadow: 1px 1px 2px black;
+
+}
+
+.imageshow{
+	display: inline-block;
+	position: relative;
+	overflow:hidden;
+	margin: 2px;
+	
+}
+.imageshow img{
+	margin: 1%;
+}
+
+
+.imageshow a{
+	position: absolute;
+	background-color: #ffbc00; 
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	padding: 3%;
+	bottom: -15%;
+	border: 1px solid #070d3b;
+	color:black;
+	left:10%;
+	font-size: .8em!IMPORTANT;
+	font-weight: bold;
+	text-decoration: none;
+	transition: all .5s;
+	
+}
+
+.imageshow:hover a{
+	bottom: 5%;
+	color:black;
+	box-shadow: 0px 0px 25px black;
+
+}
+
+.port button:hover{
+	background-color: #ffbc00;	
+
+}
+
+
+
+
+
+
+
+/*-----WorkDisplay Links-----*/
+
+#worklink{
+	margin: 7% 2% 2% 2%;
+	padding: 2%;
+	box-shadow: 0px 0px 10px #070d3b;
+	border: solid;
+}
+
+
+
+#r1{
+	font-size: 125px;
+	text-align: center;
+
+}
+
+#w1{
+	border-radius: 10%;
+	color: #070d3b;
+
+}
+
+#w1 i{
+	color: #070d3b;
+	transition: all .5s;
+}
+#w1 i:hover{
+	color:#ffa500; 
+	text-shadow: 0px 0px 10px  black;
+	transform: scale(1.2);
+
+
+}
+
+
+/*---Contact Me and Message Me-----*/
+
+.con{
+	background-image: url("../img/map view.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	margin-top: 5%;
+}
+.conT{
+	background-color: rgba(4, 88, 97, 0.68);
+
+}
+.conT h1{	
+	font-size: 2em;
+	font-weight: bold;
+	padding: 3% 25% 0% 10%;
+	color: white;
+	text-shadow: 2px 2px 3px black;
+
+}
+
+.conT h2{
+	font-size: 1.2em;
+	font-weight: bold;
+	padding: 0% 0% 2% 10%;
+	color: white;
+	text-shadow: 2px 2px 3px black;
+
+}
+.conT form{
+	margin-left: 10%;
+
+}
+.conT{
+	font-size: 19px;
+	font-weight: bold;
+}
+.conT input{
+	margin-left: 5%;
+	width: 50%;
+}
+
+.conT button{
+	padding: 3px;
+	margin: 3%;
+	width: 150px;
+	box-shadow:2px 2px 3px black; 
+	border-radius: 15px;
+	transition: all .3s;
+}
+
+
+.conT button:hover{
+	background-color: #ffbc00;	
+}
+
+.conT textarea{
+	width: 90%!IMPORTANT;
+	height: 150px;
+}
+/*-----contact Rightside Pannel----*/
+
+.condetail{
+	text-align: justify;
+	font-size: 11px!IMPORTANT;
+	padding: 3%!IMPORTANT;
+	margin: 20%;
+	color: white;
+	width: 70%;
+	background-color: rgba(0,0,0,.5);
+}
+
+.condetail i{
+	font-size: 25px;
+	text-align: center;
+}
+
+/*-----Ending---*/
+.end-links{
+	text-align: center;
+}
+
+
+.ending{
+	background-color: black;
+	text-align: center;
+	padding: .5%;
+	
+}
+
+.ending h6{
+	font-size: 12px!IMPORTANT;
+	color: white;
+}
+.ending i{
+	font-size: 25px;
+	padding: 0%;
+}
+
+}
+
+
+
+
+
+
+
+
+
+/*--- 720 px-----*/
+@media only screen and (min-width: 541px) and (max-width: 720px) {
+
+
+.top-back{
+	position: relative;
+	background-image: url("../stock-photo-business-technology.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.top-data{
+	background-color: rgba(116, 120, 230, 0.5);
+	font-size: 4em!IMPORTANT;
+	text-align: center;
+	padding: 8%;
+	color: white;
+	text-shadow: 0px 0px 5px black;
+	font-weight: bold;
+}
+.top-data h1{
+	margin: 1%;
+	font-size: 20px!IMPORTANT;
+
+}
+
+
+/*----animated Buttons---*/
+.btnA{
+	display: inline-block;
+	font-size: 20px;
+	position: relative;
+	margin: 0% 1% 3% 1%;
+	width: 40px;
+	height: 40px;
+	background-color: white;
+	border-radius: 50px;
+	text-shadow: none;
+	transition: all .5s;
+
+}
+
+.btnA:hover{
+	background-color:#ffbc00; 
+}
+.btnA:hover{
+	transform: rotateY(360deg);
+
+}
+
+.btnA i{
+	margin-top: 23%;
+}
+
+
+/*----Graphics and Web Buttons---*/
+.top-data button{
+	width: 35%!IMPORTANT;
+	height: 35px;
+	margin-bottom: 5%;
+	background-color: white;
+	font-size: 15px!IMPORTANT;
+	font-weight: bold;
+	box-shadow: 0px 0px 5px black;
+	transition: all .3s;
+}
+
+.top-data button:hover{
+	background-color: #ffbc00;	
+}
+
+
+
+/*-----navigation Bar----*/
+.navigation{
+	margin: 1.5%;
+	box-shadow: 0px 0px 5px black;
+	padding: 1%;
+}
+
+.top nav{
+	background-color:green;
+	text-align: center;
+	width:100%!IMPORTANT;
+	margin-left: 0%!IMPORTANT;
+	padding: 1%;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	border: solid 2px white;
+}
+.top nav a{
+	color: white;
+	font-size: 20px!IMPORTANT;
+	text-decoration: none;
+	margin-left: 4%;
+	transition: all .3s;
+
+
+}
+
+.top nav a:hover{
+	color: orange;
+}
+
+
+/*----About-----*/
+
+.abt{
+	background-color: #07abc5;
+}
+.abt h1
+{	line-height: 30%!IMPORTANT;
+	font-size: 30px!IMPORTANT;
+	font-weight: bold;
+	margin-left:3%!IMPORTANT;
+	padding-top: 2%;
+	color: white;
+	text-shadow: 2px 2px 3px black;
+
+}
+
+.abt h3{
+	font-size: 1.6em!IMPORTANT;
+	font-weight: bold;
+	margin-left: 1%;
+	padding: 2%!IMPORTANT;
+	color: white;
+	text-shadow: 2px 2px 3px black;
+
+}
+
+.abt img{
+	margin-left: 15%!IMPORTANT;
+	margin-top: 11%!IMPORTANT;
+	width: 450px!IMPORTANT;
+	border: solid 10px #67c1bd;
+	box-shadow: 0px 0px 5px black;
+}
+
+
+.abt p{
+	font-size: 15px!IMPORTANT;
+	text-align: justify;
+	padding: .5%!IMPORTANT;
+	margin-top: 2%;
+	color: white;
+	font-style: cursive;
+}
+
+
+.info{
+	display: inline-block;
+	width: 100%!IMPORTANT;
+	padding:2%;
+	margin: 2%;
+	text-align: center!IMPORTANT;
+}
+
+.info h4{
+	color: white;
+	font-size: 30px!IMPORTANT;
+	font-weight: bolder;
+}
+
+.info h5{
+	color: white;
+	font-size: 30px!IMPORTANT;
+}
+
+#infoABC{
+	margin-left: 2%!IMPORTANT;
+}
+
+
+
+
+.abt button{
+	width: 30%!IMPORTANT;
+	height: 30px;
+	margin-left: 35%!IMPORTANT;
+	margin-bottom: 5%;
+	background-color: white;
+	font-size: 15px;
+	font-weight: bold;
+	box-shadow: 0px 0px 5px black;
+	transition: all .3s;
+}
+
+.abt button:hover{
+	background-color: #ffbc00;	
+}
+
+
+/*------Skills work Star here-----*/
+
+
+.King-skills{
+	box-shadow: 0px 0px 10px black;
+	padding: 1%;
+	margin: 5% 2% 3% 5%;
+	background-color: #a9b0e9; 
+}
+
+.King-skills h2{
+	margin: 1%;
+	color: white;
+	font-size: 3em!IMPORTANT;
+	text-shadow: 2px 2px 4px black;
+
+}
+
+.King-skills h4{
+	margin-left: 1%;
+	color: #060a41;
+	font-size: 1.5em!IMPORTANT;
+}
+
+
+.allskills{
+	text-align: center;
+	width: 100%;
+	margin-top: 5%;
+
+}
+.allskills h1{
+	font-size: 15px!IMPORTANT;
+	padding: .5%;
+	font-weight: bold;
+	margin-top: 5%;
+	color: white;
+	background-color: #070d3b;
+}
+
+#GDskills{
+	width: 100%;
+	padding: 3%!IMPORTANT;
+
+}
+
+#GDskills h1{
+	font-size: 2em!IMPORTANT;
+	text-align: center;
+	margin-top: 1%;
+	color: #060a41;
+	margin:5% 0% 10% 0%;
+}
+
+.abc1{
+	position: relative;
+	margin: 10px;
+	width: 90%;
+	height: 28px;
+	border: 2px solid #060a41;
+}
+
+.skill_info{
+	position: absolute;
+	bottom: 0%;
+	width: 90%;
+	height: 24px;
+	background-color: #060a41;
+}
+
+.skill_info h6{
+	color: white;
+	margin-left: 5%;
+	margin-top: 1%;
+}
+
+
+
+/*-----Web designing skills---*/
+
+#WDskills{
+	width: 100%;
+	color: #060a41;
+	padding: 2%;
+}
+
+#WDskills h1{
+	font-size: 2em!IMPORTANT;
+	text-align: center;
+	margin:26px 0% 10% 0%;
+}
+
+/*-----Education work-----*/
+.edu{
+	background-color: #818ac5;
+	padding: .5%!IMPORTANT;
+	margin: -5% 1% 8% 1%;
+	box-shadow: -3px -3px 5px black;
+}
+
+.edu h1{
+	color: white;
+	font-size: 2em;
+	text-shadow: 2px 2px 4px black;
+}
+
+
+.edu h2{
+	margin-left: 1%;
+	color: #060a41;
+	font-size: 1.5em;
+}
+
+.edu table{
+	color: white;
+	text-align: center;
+
+}
+.edu td{
+	color: black;
+	font-size: 18px;
+	width: 100px;
+}
+.edu tr{
+	background-color: white;
+	color: black;
+	width: 100px;
+}
+
+.edu h5{
+	font-size: 18px!IMPORTANT;
+	color: #060a41;
+	margin-left: 1%;
+}
+
+
+
+/*-----MY Port folio link-----*/
+.port{
+	margin:2%;
+	background-color:#a9b0e9;
+	box-shadow: 0px 0px 10px  black;
+	border: 5px solid #01053ceb; 
+}
+
+.port h1{
+	padding: 1%;
+	text-align: center;
+	color:  white;
+	text-shadow: 1px 1px 5px black;
+	font-family: adobe casalon pro;
+	letter-spacing: 5px;
+}
+#imgport{
+	text-align: center;
+
+
+}
+#imgport img{
+	width: 440px!IMPORTANT;
+	padding: .5%;
+	transition: all .5s;
+
+}
+
+#imgport :hover img{
+	padding: .5%;
+	
+	
+}
+.port button{
+	width: 35%!IMPORTANT;
+	height: 10%;
+	background-color:#01053ceb ;
+	font-size: 15px!IMPORTANT;
+	color: white;
+	font-weight: bold;
+	margin: 3%!IMPORTANT;
+	margin-left: 30%!IMPORTANT;
+	box-shadow: 1px 1px 2px black;
+
+}
+
+.imageshow{
+	display: inline-block;
+	position: relative;
+	overflow:hidden;
+	margin: 2px;
+	
+}
+.imageshow img{
+	margin: 1%;
+}
+
+
+.imageshow a{
+	position: absolute;
+	background-color: #ffbc00; 
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	padding: 3%;
+	bottom: -15%;
+	border: 1px solid #070d3b;
+	color:black;
+	left:10%;
+	font-size: .8em!IMPORTANT;
+	font-weight: bold;
+	text-decoration: none;
+	transition: all .5s;
+	
+}
+
+.imageshow:hover a{
+	bottom: 5%;
+	color:black;
+	box-shadow: 0px 0px 25px black;
+
+}
+
+.port button:hover{
+	background-color: #ffbc00;	
+
+}
+
+
+
+
+
+
+
+/*-----WorkDisplay Links-----*/
+
+#worklink{
+	margin: 7% 2% 2% 2%;
+	padding: 2%;
+	box-shadow: 0px 0px 10px #070d3b;
+	border: solid;
+}
+
+
+
+#r1{
+	font-size: 125px;
+	text-align: center;
+
+}
+
+#w1{
+	border-radius: 10%;
+	color: #070d3b;
+
+}
+
+#w1 i{
+	color: #070d3b;
+	transition: all .5s;
+}
+#w1 i:hover{
+	color:#ffa500; 
+	text-shadow: 0px 0px 10px  black;
+	transform: scale(1.2);
+
+
+}
+
+
+/*---Contact Me and Message Me-----*/
+
+.con{
+	background-image: url("../img/map view.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	margin-top: 5%;
+}
+.conT{
+	background-color: rgba(4, 88, 97, 0.68);
+
+}
+.conT h1{	
+	font-size: 2em;
+	font-weight: bold;
+	padding: 3% 25% 0% 10%;
+	color: white;
+	text-shadow: 2px 2px 3px black;
+
+}
+
+.conT h2{
+	font-size: 1.2em;
+	font-weight: bold;
+	padding: 0% 0% 2% 10%;
+	color: white;
+	text-shadow: 2px 2px 3px black;
+
+}
+.conT form{
+	margin-left: 10%;
+
+}
+.conT{
+	font-size: 19px;
+	font-weight: bold;
+}
+.conT input{
+	margin-left: 5%;
+	width: 50%;
+}
+
+.conT button{
+	padding: 3px;
+	margin: 3%;
+	width: 150px;
+	box-shadow:2px 2px 3px black; 
+	border-radius: 15px;
+	transition: all .3s;
+}
+
+
+.conT button:hover{
+	background-color: #ffbc00;	
+}
+
+.conT textarea{
+	width: 90%!IMPORTANT;
+	height: 150px;
+}
+/*-----contact Rightside Pannel----*/
+
+.condetail{
+	text-align: justify;
+	font-size: 18px!IMPORTANT;
+	padding: 3%!IMPORTANT;
+	margin: 20%;
+	color: white;
+	width: 70%;
+	background-color: rgba(0,0,0,.5);
+}
+
+.condetail i{
+	font-size: 25px;
+	text-align: center;
+}
+
+/*-----Ending---*/
+.end-links{
+	text-align: center;
+	margin-top: -15%!IMPORTANT;
+}
+
+
+.ending{
+	background-color: black;
+	text-align: center;
+	padding: .1%;
+	
+}
+
+.ending h6{
+	font-size: 12px!IMPORTANT;
+	color: white;
+}
+.ending i{
+	font-size: 25px;
+	padding: 0%;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*--- 940 px-----*/
+@media only screen and (min-width: 721px) and (max-width: 940px) {
+
+
+.top-back{
+	position: relative;
+	background-image: url("../stock-photo-business-technology.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.top-data{
+	background-color: rgba(116, 120, 230, 0.5);
+	font-size: 4em!IMPORTANT;
+	text-align: center;
+	padding: 8%;
+	color: white;
+	text-shadow: 0px 0px 5px black;
+	font-weight: bold;
+}
+.top-data h1{
+	margin: 1%;
+	font-size: 20px!IMPORTANT;
+
+}
+
+
+/*----animated Buttons---*/
+.btnA{
+	display: inline-block;
+	font-size: 20px;
+	position: relative;
+	margin: 0% 1% 3% 1%;
+	width: 40px;
+	height: 40px;
+	background-color: white;
+	border-radius: 50px;
+	text-shadow: none;
+	transition: all .5s;
+
+}
+
+.btnA:hover{
+	background-color:#ffbc00; 
+}
+.btnA:hover{
+	transform: rotateY(360deg);
+
+}
+
+.btnA i{
+	margin-top: 23%;
+}
+
+
+/*----Graphics and Web Buttons---*/
+.top-data button{
+	width: 30%!IMPORTANT;
+	height: 35px;
+	margin-bottom: 5%;
+	background-color: white;
+	font-size: 15px!IMPORTANT;
+	font-weight: bold;
+	box-shadow: 0px 0px 5px black;
+	transition: all .3s;
+}
+
+.top-data button:hover{
+	background-color: #ffbc00;	
+}
+
+
+
+/*-----navigation Bar----*/
+.navigation{
+	margin: 1.5%;
+	box-shadow: 0px 0px 5px black;
+	padding: 1%;
+}
+
+.top nav{
+	background-color:green;
+	text-align: center;
+	width:100%!IMPORTANT;
+	margin-left: 0%!IMPORTANT;
+	padding: 1%;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	border: solid 2px white;
+}
+.top nav a{
+	color: white;
+	font-size: 25px!IMPORTANT;
+	text-decoration: none;
+	margin-left: 4%;
+	transition: all .3s;
+
+
+}
+
+.top nav a:hover{
+	color: orange;
+}
+
+
+/*----About-----*/
+
+.abt{
+	background-color: #07abc5;
+}
+.abt h1
+{	line-height: 30%!IMPORTANT;
+	font-size: 35px!IMPORTANT;
+	font-weight: bold;
+	margin-left:3%!IMPORTANT;
+	padding-top: 2%;
+	color: white;
+	text-shadow: 2px 2px 3px black;
+
+}
+
+.abt h3{
+	font-size: 2.1em!IMPORTANT;
+	font-weight: bold;
+	margin-left: 1%;
+	padding: 2%!IMPORTANT;
+	color: white;
+	text-shadow: 2px 2px 3px black;
+
+}
+
+.abt img{
+	margin-left: 20%!IMPORTANT;
+	margin-top: 11%!IMPORTANT;
+	width: 500px!IMPORTANT;
+	border: solid 10px #67c1bd;
+	box-shadow: 0px 0px 5px black;
+}
+
+
+.abt p{
+	font-size: 15px!IMPORTANT;
+	text-align: justify;
+	padding: .5%!IMPORTANT;
+	margin-top: 2%;
+	color: white;
+	font-style: cursive;
+}
+
+
+.info{
+	display: inline-block;
+	width: 100%!IMPORTANT;
+	padding:2%;
+	margin: 2%;
+	text-align: center!IMPORTANT;
+}
+
+.info h4{
+	color: white;
+	font-size: 30px!IMPORTANT;
+	font-weight: bolder;
+}
+
+.info h5{
+	color: white;
+	font-size: 30px!IMPORTANT;
+}
+
+#infoABC{
+	margin-left: 2%!IMPORTANT;
+}
+
+
+
+
+.abt button{
+	width: 20%!IMPORTANT;
+	height: 30px;
+	margin-left: 40%!IMPORTANT;
+	margin-bottom: 5%;
+	background-color: white;
+	font-size: 15px;
+	font-weight: bold;
+	box-shadow: 0px 0px 5px black;
+	transition: all .3s;
+}
+
+.abt button:hover{
+	background-color: #ffbc00;	
+}
+
+
+/*------Skills work Star here-----*/
+
+
+.King-skills{
+	box-shadow: 0px 0px 10px black;
+	padding: 1%;
+	margin: 5% 2% 3% 5%;
+	background-color: #a9b0e9; 
+}
+
+.King-skills h2{
+	margin: 1%;
+	color: white;
+	font-size: 3em!IMPORTANT;
+	text-shadow: 2px 2px 4px black;
+
+}
+
+.King-skills h4{
+	margin-left: 1%;
+	color: #060a41;
+	font-size: 1.5em!IMPORTANT;
+}
+
+
+.allskills{
+	text-align: center;
+	width: 100%;
+	margin-top: 5%;
+
+}
+.allskills h1{
+	font-size: 15px!IMPORTANT;
+	padding: .5%;
+	font-weight: bold;
+	margin-top: 5%;
+	color: white;
+	background-color: #070d3b;
+}
+
+#GDskills{
+	width: 100%;
+	padding: 3%!IMPORTANT;
+
+}
+
+#GDskills h1{
+	font-size: 2em!IMPORTANT;
+	text-align: center;
+	margin-top: 1%;
+	color: #060a41;
+	margin:5% 0% 10% 0%;
+}
+
+.abc1{
+	position: relative;
+	margin: 10px;
+	width: 90%;
+	height: 28px;
+	border: 2px solid #060a41;
+}
+
+.skill_info{
+	position: absolute;
+	bottom: 0%;
+	width: 90%;
+	height: 24px;
+	background-color: #060a41;
+}
+
+.skill_info h6{
+	color: white;
+	margin-left: 5%;
+	margin-top: 1%;
+}
+
+
+
+/*-----Web designing skills---*/
+
+#WDskills{
+	width: 100%;
+	color: #060a41;
+	padding: 2%;
+}
+
+#WDskills h1{
+	font-size: 2em!IMPORTANT;
+	text-align: center;
+	margin:26px 0% 10% 0%;
+}
+
+/*-----Education work-----*/
+.edu{
+	background-color: #818ac5;
+	padding: .5%!IMPORTANT;
+	margin: -5% 1% 8% 1%;
+	box-shadow: -3px -3px 5px black;
+}
+
+.edu h1{
+	color: white;
+	font-size: 2em;
+	text-shadow: 2px 2px 4px black;
+}
+
+
+.edu h2{
+	margin-left: 1%;
+	color: #060a41;
+	font-size: 1.5em;
+}
+
+.edu table{
+	color: white;
+	text-align: center;
+
+}
+.edu td{
+	color: black;
+	font-size: 18px;
+	width: 100px;
+}
+.edu tr{
+	background-color: white;
+	color: black;
+	width: 100px;
+}
+
+.edu h5{
+	font-size: 18px!IMPORTANT;
+	color: #060a41;
+	margin-left: 1%;
+}
+
+
+
+/*-----MY Port folio link-----*/
+.port{
+	margin:2%;
+	background-color:#a9b0e9;
+	box-shadow: 0px 0px 10px  black;
+	border: 5px solid #01053ceb; 
+}
+
+.port h1{
+	padding: 1%;
+	text-align: center;
+	color:  white;
+	text-shadow: 1px 1px 5px black;
+	font-family: adobe casalon pro;
+	letter-spacing: 5px;
+}
+#imgport{
+	text-align: center;
+
+
+}
+#imgport img{
+	width: 490px!IMPORTANT;
+	padding: .5%;
+	transition: all .5s;
+
+}
+
+#imgport :hover img{
+	padding: .5%;
+	
+	
+}
+.port button{
+	width: 35%!IMPORTANT;
+	height: 10%;
+	background-color:#01053ceb ;
+	font-size: 15px!IMPORTANT;
+	color: white;
+	font-weight: bold;
+	margin: 3%!IMPORTANT;
+	margin-left: 30%!IMPORTANT;
+	box-shadow: 1px 1px 2px black;
+
+}
+
+.imageshow{
+	display: inline-block;
+	position: relative;
+	overflow:hidden;
+	margin: 2px;
+	
+}
+.imageshow img{
+	margin: 1%;
+}
+
+
+.imageshow a{
+	position: absolute;
+	background-color: #ffbc00; 
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	padding: 3%;
+	bottom: -15%;
+	border: 1px solid #070d3b;
+	color:black;
+	left:10%;
+	font-size: .8em!IMPORTANT;
+	font-weight: bold;
+	text-decoration: none;
+	transition: all .5s;
+	
+}
+
+.imageshow:hover a{
+	bottom: 5%;
+	color:black;
+	box-shadow: 0px 0px 25px black;
+
+}
+
+.port button:hover{
+	background-color: #ffbc00;	
+
+}
+
+
+
+
+
+
+
+/*-----WorkDisplay Links-----*/
+
+#worklink{
+	margin: 7% 2% 2% 2%;
+	padding: 2%;
+	box-shadow: 0px 0px 10px #070d3b;
+	border: solid;
+}
+
+
+
+#r1{
+	font-size: 125px;
+	text-align: center;
+
+}
+
+#w1{
+	border-radius: 10%;
+	color: #070d3b;
+
+}
+
+
+#w1 i{
+	color: #070d3b;
+	transition: all .5s;
+}
+#w1 i:hover{
+	color:#ffa500; 
+	text-shadow: 0px 0px 10px  black;
+	transform: scale(1.2);
+
+
+}
+
+
+/*---Contact Me and Message Me-----*/
+
+.con{
+	background-image: url("../img/map view.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	margin-top: 5%;
+}
+.conT{
+	background-color: rgba(4, 88, 97, 0.68);
+
+}
+.conT h1{	
+	font-size: 2em;
+	font-weight: bold;
+	padding: 3% 25% 0% 10%;
+	color: white;
+	text-shadow: 2px 2px 3px black;
+
+}
+
+.conT h2{
+	font-size: 1.2em;
+	font-weight: bold;
+	padding: 0% 0% 2% 10%;
+	color: white;
+	text-shadow: 2px 2px 3px black;
+
+}
+.conT form{
+	margin-left: 10%;
+
+}
+.conT{
+	font-size: 19px;
+	font-weight: bold;
+}
+.conT input{
+	margin-left: 5%;
+	width: 50%;
+}
+
+.conT button{
+	padding: 3px;
+	margin: 3%;
+	width: 150px;
+	box-shadow:2px 2px 3px black; 
+	border-radius: 15px;
+	transition: all .3s;
+}
+
+
+.conT button:hover{
+	background-color: #ffbc00;	
+}
+
+.conT textarea{
+	width: 90%!IMPORTANT;
+	height: 150px;
+}
+/*-----contact Rightside Pannel----*/
+
+.condetail{
+	text-align: justify;
+	font-size: 20px!IMPORTANT;
+	padding: 3%!IMPORTANT;
+	margin: 20%;
+	color: white;
+	width: 70%;
+	background-color: rgba(0,0,0,.5);
+}
+
+.condetail i{
+	font-size: 25px;
+	text-align: center;
+}
+
+/*-----Ending---*/
+.end-links{
+	text-align: center;
+	margin-top: -15%!IMPORTANT;
+}
+
+
+.ending{
+	background-color: black;
+	text-align: center;
+	padding: .1%;
+	
+}
+
+.ending h6{
+	font-size: 12px!IMPORTANT;
+	color: white;
+}
+.ending i{
+	font-size: 25px;
+	padding: 0%;
+}
+
+}
+
+
+
+
+
+
+
+
+/*--- 940 px-----*/
+@media only screen and (min-width: 941px) and (max-width: 1200px) {
+
+
+.top-back{
+	position: relative;
+	background-image: url("../stock-photo-business-technology.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.top-data{
+	background-color: rgba(116, 120, 230, 0.5);
+	font-size: 4em!IMPORTANT;
+	text-align: center;
+	padding: 8%;
+	color: white;
+	text-shadow: 0px 0px 5px black;
+	font-weight: bold;
+}
+.top-data h1{
+	margin: 1%;
+	font-size: 20px!IMPORTANT;
+
+}
+
+
+/*----animated Buttons---*/
+.btnA{
+	display: inline-block;
+	font-size: 20px;
+	position: relative;
+	margin: 0% 1% 3% 1%;
+	width: 40px;
+	height: 40px;
+	background-color: white;
+	border-radius: 50px;
+	text-shadow: none;
+	transition: all .5s;
+
+}
+
+.btnA:hover{
+	background-color:#ffbc00; 
+}
+.btnA:hover{
+	transform: rotateY(360deg);
+
+}
+
+.btnA i{
+	margin-top: 23%;
+}
+
+
+/*----Graphics and Web Buttons---*/
+.top-data button{
+	width: 30%!IMPORTANT;
+	height: 35px;
+	margin-bottom: 5%;
+	background-color: white;
+	font-size: 15px!IMPORTANT;
+	font-weight: bold;
+	box-shadow: 0px 0px 5px black;
+	transition: all .3s;
+}
+
+.top-data button:hover{
+	background-color: #ffbc00;	
+}
+
+
+
+/*-----navigation Bar----*/
+.navigation{
+	margin: 1.5%;
+	box-shadow: 0px 0px 5px black;
+	padding: 1%;
+}
+
+.top nav{
+	background-color:green;
+	text-align: center;
+	width:100%!IMPORTANT;
+	margin-left: 0%!IMPORTANT;
+	padding: 1%;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	border: solid 2px white;
+}
+.top nav a{
+	color: white;
+	font-size: 25px!IMPORTANT;
+	text-decoration: none;
+	margin-left: 4%;
+	transition: all .3s;
+
+
+}
+
+.top nav a:hover{
+	color: orange;
+}
+
+
+/*----About-----*/
+
+.abt{
+	background-color: #07abc5;
+}
+.abt h1
+{	line-height: 30%!IMPORTANT;
+	font-size: 35px!IMPORTANT;
+	font-weight: bold;
+	margin-left:3%!IMPORTANT;
+	padding-top: 2%;
+	color: white;
+	text-shadow: 2px 2px 3px black;
+
+}
+
+.abt h3{
+	font-size: 2.1em!IMPORTANT;
+	font-weight: bold;
+	margin-left: 1%;
+	padding: 2%!IMPORTANT;
+	color: white;
+	text-shadow: 2px 2px 3px black;
+
+}
+
+.abt img{
+	margin-left: 20%!IMPORTANT;
+	margin-top: 11%!IMPORTANT;
+	width: 280px!IMPORTANT;
+	border: solid 10px #67c1bd;
+	box-shadow: 0px 0px 5px black;
+}
+
+
+.abt p{
+	font-size: 18px!IMPORTANT;
+	text-align: justify;
+	padding: .5%!IMPORTANT;
+	margin-top: 2%;
+	color: white;
+	font-style: cursive;
+}
+
+
+.info{
+	display: inline-block;
+	width: 40%!IMPORTANT;
+	padding:0%!IMPORTANT;
+	margin: 0%!IMPORTANT;
+}
+
+.info h4{
+	color: white;
+	font-size: 25px!IMPORTANT;
+	font-weight: bolder;
+}
+
+.info h5{
+	color: white;
+	font-size: 20px!IMPORTANT;
+}
+
+#infoABC{
+	margin-left: 2%!IMPORTANT;
+}
+
+
+
+
+.abt button{
+	width: 20%!IMPORTANT;
+	height: 30px;
+	margin-left: 40%!IMPORTANT;
+	margin-bottom: 5%;
+	background-color: white;
+	font-size: 15px;
+	font-weight: bold;
+	box-shadow: 0px 0px 5px black;
+	transition: all .3s;
+}
+
+.abt button:hover{
+	background-color: #ffbc00;	
+}
+
+
+/*------Skills work Star here-----*/
+
+
+.King-skills{
+	box-shadow: 0px 0px 10px black;
+	padding: 1%;
+	margin: 5% 2% 3% 5%;
+	background-color: #a9b0e9; 
+}
+
+.King-skills h2{
+	margin: 1%;
+	color: white;
+	font-size: 3em!IMPORTANT;
+	text-shadow: 2px 2px 4px black;
+
+}
+
+.King-skills h4{
+	margin-left: 1%;
+	color: #060a41;
+	font-size: 1.5em!IMPORTANT;
+}
+
+
+.allskills{
+	text-align: center;
+	width: 100%;
+	margin-top: 5%;
+
+}
+.allskills h1{
+	font-size: 15px!IMPORTANT;
+	padding: .5%;
+	font-weight: bold;
+	margin-top: 5%;
+	color: white;
+	background-color: #070d3b;
+}
+
+#GDskills{
+	width: 100%;
+	padding: 3%!IMPORTANT;
+
+}
+
+#GDskills h1{
+	font-size: 2em!IMPORTANT;
+	text-align: center;
+	margin-top: 1%;
+	color: #060a41;
+	margin:5% 0% 10% 0%;
+}
+
+.abc1{
+	position: relative;
+	margin: 10px;
+	width: 90%;
+	height: 28px;
+	border: 2px solid #060a41;
+}
+
+.skill_info{
+	position: absolute;
+	bottom: 0%;
+	width: 90%;
+	height: 24px;
+	background-color: #060a41;
+}
+
+.skill_info h6{
+	color: white;
+	margin-left: 5%;
+	margin-top: 1%;
+}
+
+
+
+/*-----Web designing skills---*/
+
+#WDskills{
+	width: 100%;
+	color: #060a41;
+	padding: 2%;
+}
+
+#WDskills h1{
+	font-size: 2em!IMPORTANT;
+	text-align: center;
+	margin:26px 0% 10% 0%;
+}
+
+/*-----Education work-----*/
+.edu{
+	background-color: #818ac5;
+	padding: .5%!IMPORTANT;
+	margin: -5% 1% 8% 1%;
+	box-shadow: -3px -3px 5px black;
+}
+
+.edu h1{
+	color: white;
+	font-size: 2em;
+	text-shadow: 2px 2px 4px black;
+}
+
+
+.edu h2{
+	margin-left: 1%;
+	color: #060a41;
+	font-size: 1.5em;
+}
+
+.edu table{
+	color: white;
+	text-align: center;
+
+}
+.edu td{
+	color: black;
+	font-size: 18px;
+	width: 100px;
+}
+.edu tr{
+	background-color: white;
+	color: black;
+	width: 100px;
+}
+
+.edu h5{
+	font-size: 18px!IMPORTANT;
+	color: #060a41;
+	margin-left: 1%;
+}
+
+
+
+/*-----MY Port folio link-----*/
+.port{
+	margin:2%;
+	background-color:#a9b0e9;
+	box-shadow: 0px 0px 10px  black;
+	border: 5px solid #01053ceb; 
+}
+
+.port h1{
+	padding: 1%;
+	text-align: center;
+	color:  white;
+	text-shadow: 1px 1px 5px black;
+	font-family: adobe casalon pro;
+	letter-spacing: 5px;
+}
+#imgport{
+	text-align: center;
+
+
+}
+#imgport img{
+	width: 490px!IMPORTANT;
+	padding: .5%;
+	transition: all .5s;
+
+}
+
+#imgport :hover img{
+	padding: .5%;
+	
+	
+}
+.port button{
+	width: 35%!IMPORTANT;
+	height: 10%;
+	background-color:#01053ceb ;
+	font-size: 15px!IMPORTANT;
+	color: white;
+	font-weight: bold;
+	margin: 3%!IMPORTANT;
+	margin-left: 30%!IMPORTANT;
+	box-shadow: 1px 1px 2px black;
+
+}
+
+.imageshow{
+	display: inline-block;
+	position: relative;
+	overflow:hidden;
+	margin: 2px;
+	
+}
+.imageshow img{
+	margin: 1%;
+}
+
+
+.imageshow a{
+	position: absolute;
+	background-color: #ffbc00; 
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	padding: 3%;
+	bottom: -15%;
+	border: 1px solid #070d3b;
+	color:black;
+	left:10%;
+	font-size: .8em!IMPORTANT;
+	font-weight: bold;
+	text-decoration: none;
+	transition: all .5s;
+	
+}
+
+.imageshow:hover a{
+	bottom: 5%;
+	color:black;
+	box-shadow: 0px 0px 25px black;
+
+}
+
+.port button:hover{
+	background-color: #ffbc00;	
+
+}
+
+
+
+
+
+
+
+/*-----WorkDisplay Links-----*/
+
+#worklink{
+	margin: 7% 2% 2% 2%;
+	padding: 2%;
+	box-shadow: 0px 0px 10px #070d3b;
+	border: solid;
+}
+
+
+
+#r1{
+	font-size: 125px;
+	text-align: center;
+
+}
+
+#w1{
+	border-radius: 10%;
+	color: #070d3b;
+
+}
+
+
+#w1 i{
+	color: #070d3b;
+	transition: all .5s;
+}
+#w1 i:hover{
+	color:#ffa500; 
+	text-shadow: 0px 0px 10px  black;
+	transform: scale(1.2);
+
+
+}
+
+
+/*---Contact Me and Message Me-----*/
+
+.con{
+	background-image: url("../img/map view.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	margin-top: 5%;
+}
+.conT{
+	background-color: rgba(4, 88, 97, 0.68);
+
+}
+.conT h1{	
+	font-size: 2em;
+	font-weight: bold;
+	padding: 3% 25% 0% 10%;
+	color: white;
+	text-shadow: 2px 2px 3px black;
+
+}
+
+.conT h2{
+	font-size: 1.2em;
+	font-weight: bold;
+	padding: 0% 0% 2% 10%;
+	color: white;
+	text-shadow: 2px 2px 3px black;
+
+}
+.conT form{
+	margin-left: 10%;
+
+}
+.conT{
+	font-size: 19px;
+	font-weight: bold;
+}
+.conT input{
+	margin-left: 5%;
+	width: 50%;
+}
+
+.conT button{
+	padding: 3px;
+	margin: 3%;
+	width: 150px;
+	box-shadow:2px 2px 3px black; 
+	border-radius: 15px;
+	transition: all .3s;
+}
+
+
+.conT button:hover{
+	background-color: #ffbc00;	
+}
+
+.conT textarea{
+	width: 90%!IMPORTANT;
+	height: 150px;
+}
+/*-----contact Rightside Pannel----*/
+
+.condetail{
+	text-align: justify;
+	font-size: 20px!IMPORTANT;
+	padding: 3%!IMPORTANT;
+	margin: 20%;
+	color: white;
+	width: 70%;
+	background-color: rgba(0,0,0,.5);
+}
+
+.condetail i{
+	font-size: 25px;
+	text-align: center;
+}
+
+/*-----Ending---*/
+.end-links{
+	text-align: center;
+	margin-top: -1%!IMPORTANT;
+}
+
+
+.ending{
+	background-color: black;
+	text-align: center;
+	padding: .1%;
+	
+}
+
+.ending h6{
+	font-size: 12px!IMPORTANT;
+	color: white;
+}
+.ending i{
+	font-size: 25px;
+	padding: 0%;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--- 1600 px-----*/
+@media only screen and (min-width: 1441px) and (max-width: 1600px) {
+
+.top-back{
+	position: relative;
+	background-image: url("../stock-photo-business-technology.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.top-data{
+	background-color: rgba(116, 120, 230, 0.5);
+	font-size: 4em!IMPORTANT;
+	text-align: center;
+	padding: 8%;
+	color: white;
+	text-shadow: 0px 0px 5px black;
+	font-weight: bold;
+}
+.top-data h1{
+	margin: 1%;
+	font-size: 50px!IMPORTANT;
+
+}
+
+
+/*----animated Buttons---*/
+.btnA{
+	display: inline-block;
+	font-size: 25px!IMPORTANT;
+	position: relative;
+	margin: 0% 1% 3% 1%;
+	width: 40px;
+	height: 40px;
+	background-color: white;
+	border-radius: 50px;
+	text-shadow: none;
+	transition: all .5s;
+
+}
+
+.btnA:hover{
+	background-color:#ffbc00; 
+}
+.btnA:hover{
+	transform: rotateY(360deg);
+
+}
+
+.btnA i{
+	margin-top: 23%;
+}
+
+
+/*----Graphics and Web Buttons---*/
+.top-data button{
+	width: 20%!IMPORTANT;
+	height: 45px!IMPORTANT;
+	margin-bottom: 5%;
+	background-color: white;
+	font-size: 25px!IMPORTANT;
+	font-weight: bold;
+	box-shadow: 0px 0px 5px black;
+	transition: all .3s;
+}
+
+.top-data button:hover{
+	background-color: #ffbc00;	
+}
+
+
+
+/*-----navigation Bar----*/
+.navigation{
+	margin: 1.5%;
+	box-shadow: 0px 0px 5px black;
+	padding: 1%;
+}
+
+.top nav{
+	background-color:green;
+	text-align: center;
+	width:100%!IMPORTANT;
+	margin-left: 0%!IMPORTANT;
+	padding: 1%;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	border: solid 2px white;
+}
+.top nav a{
+	color: white;
+	font-size: 50px!IMPORTANT;
+	text-decoration: none;
+	margin-left: 4%!IMPORTANT;
+	transition: all .3s;
+
+
+}
+
+.top nav a:hover{
+	color: orange;
+}
+
+
+/*----About-----*/
+
+.abt{
+	background-color: #07abc5;
+}
+.abt h1
+{	line-height: 25%;
+	font-size: 55px!IMPORTANT;
+	font-weight: bold;
+	margin-left:2%;
+	padding-top: 2%;
+	color: white;
+	text-shadow: 2px 2px 3px black;
+
+}
+
+.abt h3{
+	font-size: 2.5em!IMPORTANT;
+	font-weight: bold;
+	margin-left: 1%;
+	padding: 1%;
+	color: white;
+	text-shadow: 2px 2px 3px black;
+
+}
+
+.abt img{
+	margin-left: 10%;
+	margin-top: 11%;
+	width: 380px!IMPORTANT;
+	border: solid 10px #67c1bd;
+	box-shadow: 0px 0px 5px black;
+}
+
+.abt p{
+	font-size: 30px!IMPORTANT;
+	text-align: justify;
+	padding: 3%;
+	margin-top: 2%;
+	color: white;
+	font-style: cursive;
+}
+
+.info{
+	display: inline-block;
+	padding:1%!IMPORTANT;
+	margin: 2%;
+}
+
+.info h4{
+	color: white;
+	font-size: 25px!IMPORTANT;
+	font-weight: bolder;
+}
+
+.info h5{
+	font-size: 25px!IMPORTANT;
+	color: white;
+}
+
+
+.abt button{
+	width: 27%!IMPORTANT;
+	height: 40px!IMPORTANT;
+	margin-left: 3%!IMPORTANT;
+	margin-bottom: 5%;
+	background-color: white;
+	font-size: 25px!IMPORTANT;
+	font-weight: bold;
+	box-shadow: 0px 0px 5px black;
+	transition: all .3s;
+}
+
+.abt button:hover{
+	background-color: #ffbc00;	
+}
+
+
+/*------Skills work Star here-----*/
+
+
+.King-skills{
+	box-shadow: 0px 0px 10px black;
+	padding: 1%;
+	margin: 5% 2% 3% 2%;
+	background-color: #a9b0e9; 
+}
+
+.King-skills h2{
+	margin: 1%;
+	color: white;
+	font-size: 2.5em!IMPORTANT;
+	text-shadow: 2px 2px 4px black;
+
+}
+
+.King-skills h4{
+	margin-left: 1.5%;
+	color: #060a41;
+	font-size: 2em!IMPORTANT;
+}
+
+
+.allskills{
+	text-align: center;
+	width: 100%;
+	margin-top: 5%;
+
+}
+.allskills h1{
+	font-size: 25px;
+	padding: .5%;
+	font-weight: bold;
+	margin-top: 5%;
+	color: white;
+	background-color: #070d3b;
+}
+
+#GDskills{
+	width: 100%;
+	padding: 1%;
+
+}
+
+#GDskills h1{
+	font-size: 2em;
+	text-align: center;
+	margin-top: 1%;
+	color: #060a41;
+	margin:5% 0% 10% 0%;
+}
+
+.abc1{
+	position: relative;
+	margin: 10px;
+	width: 90%;
+	height: 28px;
+	border: 2px solid #060a41;
+}
+
+.skill_info{
+	position: absolute;
+	bottom: 0%;
+	width: 90%;
+	height: 24px;
+	background-color: #060a41;
+}
+
+.skill_info h6{
+	color: white;
+	margin-left: 5%;
+	margin-top: 1%;
+}
+
+
+
+/*-----Web designing skills---*/
+
+#WDskills{
+	width: 100%;
+	color: #060a41;
+	padding: 2%;
+}
+
+#WDskills h1{
+	font-size: 2em;
+	text-align: center;
+	margin:26px 0% 10% 0%;
+}
+
+/*-----Education work-----*/
+.edu{
+	background-color: #818ac5;
+	padding: 1%;
+	margin: -5% 1% 8% 1%;
+	box-shadow: -3px -3px 5px black;
+}
+
+.edu h1{
+	color: white;
+	font-size: 3em;
+	text-shadow: 2px 2px 4px black;
+}
+
+
+.edu h2{
+	margin-left: 1%;
+	color: #060a41;
+	font-size: 1.5em;
+}
+
+.edu table{
+
+	color: white;
+	text-align: center;
+
+}
+.edu td{
+	font-size: 1em!IMPORTANT;
+	color: black;
+	font-size: 18px;
+	width: 100px;
+}
+.edu tr{
+	font-size: 2em!IMPORTANT;
+	background-color: white;
+	color: black;
+	width: 100px;
+}
+
+.edu h5{
+	font-size: 30px!IMPORTANT;
+	color: #060a41;
+	margin-left: 1%;
+}
+
+
+
+/*-----MY Port folio link-----*/
+.port{
+	margin:2%;
+	background-color:#a9b0e9;
+	box-shadow: 0px 0px 10px  black;
+	border: 5px solid #01053ceb; 
+}
+
+.port h1{
+	padding: 1%;
+	text-align: center;
+	color:  white;
+	text-shadow: 1px 1px 5px black;
+	font-family: adobe casalon pro;
+	letter-spacing: 5px;
+}
+#imgport{
+	text-align: center;
+
+
+}
+#imgport img{
+	padding: .5%;
+	transition: all .5s;
+
+}
+
+#imgport :hover img{
+	padding: .5%;
+	
+	
+}
+.port button{
+	width: 20%;
+	height: 10%;
+	background-color:#01053ceb ;
+	font-size: 25px!IMPORTANT;
+	color: white;
+	font-weight: bold;
+	margin: 2%;
+	margin-left: 41%;
+	box-shadow: 1px 1px 2px black;
+
+}
+
+.imageshow{
+	display: inline-block;
+	position: relative;
+	overflow:hidden;
+	width: 33%!IMPORTANT;
+	margin: .1px!IMPORTANT;
+	
+}
+.imageshow img{
+	margin: 1%!IMPORTANT;
+	width: 450px!IMPORTANT;
+}
+
+
+.imageshow a{
+	position: absolute;
+	background-color: #ffbc00; 
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	padding: 3%;
+	bottom: -20%!IMPORTANT;
+	border: 1px solid #070d3b;
+	color:black;
+	left:10%;
+	font-size: 2em!IMPORTANT;
+	font-weight: bold;
+	text-decoration: none;
+	transition: all .5s;
+	
+}
+
+.imageshow:hover a{
+	bottom: 10%!IMPORTANT;
+	color:black;
+	box-shadow: 0px 0px 25px black;
+
+}
+
+.port button:hover{
+	background-color: #ffbc00;	
+
+}
+
+
+
+
+
+
+
+/*-----WorkDisplay Links-----*/
+
+#worklink{
+	margin: 7% 2% 2% 2%;
+	padding: 2%;
+	box-shadow: 0px 0px 10px #070d3b;
+	border: solid;
+}
+
+
+
+#r1{
+	font-size: 125px;
+	text-align: center;
+
+}
+
+#w1{
+	border-radius: 10%;
+	color: #070d3b;
+
+}
+
+#w1 i{
+	color: #070d3b;
+	transition: all .5s;
+}
+#w1 i:hover{
+	color:#ffa500; 
+	text-shadow: 0px 0px 10px  black;
+	transform: scale(1.2);
+
+
+}
+
+
+/*---Contact Me and Message Me-----*/
+
+.con{
+	background-image: url("../img/map view.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	margin-top: 5%;
+}
+.conT{
+	background-color: rgba(4, 88, 97, 0.68);
+
+}
+.conT h1{	
+	font-size: 2em;
+	font-weight: bold;
+	padding: 3% 25% 0% 10%;
+	color: white;
+	text-shadow: 2px 2px 3px black;
+
+}
+
+.conT h2{
+	font-size: 1.2em;
+	font-weight: bold;
+	padding: 0% 0% 2% 10%;
+	color: white;
+	text-shadow: 2px 2px 3px black;
+
+}
+.conT form{
+	margin-left: 10%;
+
+}
+.conT{
+	font-size: 19px;
+	font-weight: bold;
+}
+.conT input{
+	margin-left: 5%;
+	width: 80%!IMPORTANT;
+}
+
+.conT button{
+	padding: 3px;
+	margin: 3%;
+	width: 150px;
+	box-shadow:2px 2px 3px black; 
+	border-radius: 15px;
+	transition: all .3s;
+}
+
+
+.conT button:hover{
+	background-color: #ffbc00;	
+}
+
+.conT textarea{
+	width:94%!IMPORTANT;
+	height: 150px;
+}
+/*-----contact Rightside Pannel----*/
+
+.condetail{
+	text-align: justify;
+	font-size: 25px!IMPORTANT;
+	padding: 3%;
+	margin: 16%!IMPORTANT;
+	color: white;
+	width: 80%!IMPORTANT;
+	background-color: rgba(0,0,0,.5);
+}
+
+.condetail i{
+	font-size: 25px;
+	text-align: center;
+}
+
+/*-----Ending---*/
+.end-links{
+	text-align: center;
+}
+
+
+.ending{
+	background-color: black;
+	text-align: center;
+	padding: .5%;
+	font-size: 20px;
+}
+
+.ending h6{
+	color: white;
+}
+.ending i{
+	font-size: 25px;
+	padding: 0%;
+}
+
+}
+
+
+
+
+/*--- 1920 px-----*/
+@media only screen and (min-width: 1601px) and (max-width: 1920px) {
+
+.top-back{
+	position: relative;
+	background-image: url("../stock-photo-business-technology.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.top-data{
+	background-color: rgba(116, 120, 230, 0.5);
+	font-size: 5em!IMPORTANT;
+	text-align: center;
+	padding: 8%;
+	color: white;
+	text-shadow: 0px 0px 5px black;
+	font-weight: bold;
+}
+.top-data h1{
+	margin: 1%;
+	font-size: 60px!IMPORTANT;
+
+}
+
+
+/*----animated Buttons---*/
+.btnA{
+	display: inline-block;
+	font-size: 25px!IMPORTANT;
+	position: relative;
+	margin: 0% 1% 3% 1%;
+	width: 50px!IMPORTANT;
+	height:50px!IMPORTANT;
+	background-color: white;
+	border-radius: 50px;
+	text-shadow: none;
+	transition: all .5s;
+
+}
+
+.btnA:hover{
+	background-color:#ffbc00; 
+}
+.btnA:hover{
+	transform: rotateY(360deg);
+
+}
+
+.btnA i{
+	font-size: 100%!IMPORTANT;
+	margin-top: 23%;
+}
+
+
+/*----Graphics and Web Buttons---*/
+.top-data button{
+	width: 20%!IMPORTANT;
+	height: 45px!IMPORTANT;
+	margin-bottom: 5%;
+	background-color: white;
+	font-size: 25px!IMPORTANT;
+	font-weight: bold;
+	box-shadow: 0px 0px 5px black;
+	transition: all .3s;
+}
+
+.top-data button:hover{
+	background-color: #ffbc00;	
+}
+
+
+
+/*-----navigation Bar----*/
+.navigation{
+	margin: 1.5%;
+	box-shadow: 0px 0px 5px black;
+	padding: 1%;
+}
+
+.top nav{
+	background-color:green;
+	text-align: center;
+	width:100%!IMPORTANT;
+	margin-left: 0%!IMPORTANT;
+	padding: 1%;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	border: solid 2px white;
+}
+.top nav a{
+	color: white;
+	font-size: 60px!IMPORTANT;
+	text-decoration: none;
+	margin-left: 4%!IMPORTANT;
+	transition: all .3s;
+
+
+}
+
+.top nav a:hover{
+	color: orange;
+}
+
+
+/*----About-----*/
+
+.abt{
+	background-color: #07abc5;
+}
+.abt h1
+{	line-height: 25%;
+	font-size: 55px!IMPORTANT;
+	font-weight: bold;
+	margin-left:2%;
+	padding-top: 2%;
+	color: white;
+	text-shadow: 2px 2px 3px black;
+
+}
+
+.abt h3{
+	font-size: 2.5em!IMPORTANT;
+	font-weight: bold;
+	margin-left: 1%;
+	padding: 1%;
+	color: white;
+	text-shadow: 2px 2px 3px black;
+
+}
+
+.abt img{
+	margin-left: 10%;
+	margin-top: 11%;
+	width: 430px!IMPORTANT;
+	border: solid 10px #67c1bd;
+	box-shadow: 0px 0px 5px black;
+}
+
+.abt p{
+	font-size: 40px!IMPORTANT;
+	text-align: justify;
+	padding: 3%;
+	margin-top: 2%;
+	color: white;
+	font-style: cursive;
+}
+
+.info{
+	display: inline-block;
+	padding:1%!IMPORTANT;
+	margin: 2%;
+}
+
+.info h4{
+	color: white;
+	font-size: 30px!IMPORTANT;
+	font-weight: bolder;
+}
+
+.info h5{
+	font-size: 30px!IMPORTANT;
+	color: white;
+}
+
+
+.abt button{
+	width: 27%!IMPORTANT;
+	height: 40px!IMPORTANT;
+	margin-left: 3%!IMPORTANT;
+	margin-bottom: 5%;
+	background-color: white;
+	font-size: 25px!IMPORTANT;
+	font-weight: bold;
+	box-shadow: 0px 0px 5px black;
+	transition: all .3s;
+}
+
+.abt button:hover{
+	background-color: #ffbc00;	
+}
+
+
+/*------Skills work Star here-----*/
+
+
+.King-skills{
+	box-shadow: 0px 0px 10px black;
+	padding: 1%;
+	margin: 5% 2% 3% 2%;
+	background-color: #a9b0e9; 
+}
+
+.King-skills h2{
+	margin: 1%;
+	color: white;
+	font-size: 2.5em!IMPORTANT;
+	text-shadow: 2px 2px 4px black;
+
+}
+
+.King-skills h4{
+	margin-left: 1.5%;
+	color: #060a41;
+	font-size: 2em!IMPORTANT;
+}
+
+
+.allskills{
+	text-align: center;
+	width: 100%;
+	margin-top: 5%;
+
+}
+.allskills h1{
+	font-size: 25px;
+	padding: .5%;
+	font-weight: bold;
+	margin-top: 5%;
+	color: white;
+	background-color: #070d3b;
+}
+
+#GDskills{
+	width: 100%;
+	padding: 1%;
+
+}
+
+#GDskills h1{
+	font-size: 2em;
+	text-align: center;
+	margin-top: 1%;
+	color: #060a41;
+	margin:5% 0% 10% 0%;
+}
+
+.abc1{
+	position: relative;
+	margin: 10px;
+	width: 90%;
+	height: 28px;
+	border: 2px solid #060a41;
+}
+
+.skill_info{
+	position: absolute;
+	bottom: 0%;
+	width: 90%;
+	height: 24px;
+	background-color: #060a41;
+}
+
+.skill_info h6{
+	color: white;
+	margin-left: 5%;
+	margin-top: 1%;
+}
+
+
+
+/*-----Web designing skills---*/
+
+#WDskills{
+	width: 100%;
+	color: #060a41;
+	padding: 2%;
+}
+
+#WDskills h1{
+	font-size: 2em;
+	text-align: center;
+	margin:26px 0% 10% 0%;
+}
+
+/*-----Education work-----*/
+.edu{
+	background-color: #818ac5;
+	padding: 1%;
+	margin: -5% 1% 8% 1%;
+	box-shadow: -3px -3px 5px black;
+}
+
+.edu h1{
+	color: white;
+	font-size: 3em;
+	text-shadow: 2px 2px 4px black;
+}
+
+
+.edu h2{
+	margin-left: 1%;
+	color: #060a41;
+	font-size: 1.5em;
+}
+
+.edu table{
+
+	color: white;
+	text-align: center;
+
+}
+.edu td{
+	font-size: 1em!IMPORTANT;
+	color: black;
+	font-size: 18px;
+	width: 100px;
+}
+.edu tr{
+	font-size: 2em!IMPORTANT;
+	background-color: white;
+	color: black;
+	width: 100px;
+}
+
+.edu h5{
+	font-size: 30px!IMPORTANT;
+	color: #060a41;
+	margin-left: 1%;
+}
+
+
+
+/*-----MY Port folio link-----*/
+.port{
+	margin:2%;
+	background-color:#a9b0e9;
+	box-shadow: 0px 0px 10px  black;
+	border: 5px solid #01053ceb; 
+}
+
+.port h1{
+	padding: 1%;
+	text-align: center;
+	color:  white;
+	text-shadow: 1px 1px 5px black;
+	font-family: adobe casalon pro;
+	letter-spacing: 5px;
+}
+#imgport{
+	text-align: center;
+
+
+}
+#imgport img{
+	padding: .5%;
+	transition: all .5s;
+
+}
+
+#imgport :hover img{
+	padding: .5%;
+	
+	
+}
+.port button{
+	width: 20%;
+	height: 10%;
+	background-color:#01053ceb ;
+	font-size: 25px!IMPORTANT;
+	color: white;
+	font-weight: bold;
+	margin: 2%;
+	margin-left: 41%;
+	box-shadow: 1px 1px 2px black;
+
+}
+
+.imageshow{
+	display: inline-block;
+	position: relative;
+	overflow:hidden;
+	width: 33%!IMPORTANT;
+	margin: .1px!IMPORTANT;
+	
+}
+.imageshow img{
+	margin: 1%!IMPORTANT;
+	width: 550px!IMPORTANT;
+}
+
+
+.imageshow a{
+	position: absolute;
+	background-color: #ffbc00; 
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	padding: 3%;
+	bottom: -20%!IMPORTANT;
+	border: 1px solid #070d3b;
+	color:black;
+	left:10%;
+	font-size: 2em!IMPORTANT;
+	font-weight: bold;
+	text-decoration: none;
+	transition: all .5s;
+	
+}
+
+.imageshow:hover a{
+	bottom: 10%!IMPORTANT;
+	color:black;
+	box-shadow: 0px 0px 25px black;
+
+}
+
+.port button:hover{
+	background-color: #ffbc00;	
+
+}
+
+
+
+
+
+
+
+/*-----WorkDisplay Links-----*/
+
+#worklink{
+	margin: 7% 2% 2% 2%;
+	padding: 2%;
+	box-shadow: 0px 0px 10px #070d3b;
+	border: solid;
+}
+
+
+
+#r1{
+	font-size: 125px;
+	text-align: center;
+
+}
+
+#w1{
+	border-radius: 10%;
+	color: #070d3b;
+
+}
+
+#w1 i{
+	color: #070d3b;
+	font-size: 100%!IMPORTANT;
+	transition: all .5s;
+}
+#w1 i:hover{
+	color:#ffa500; 
+	text-shadow: 0px 0px 10px  black;
+	transform: scale(1.2);
+
+
+}
+
+
+/*---Contact Me and Message Me-----*/
+
+.con{
+	background-image: url("../img/map view.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	margin-top: 5%;
+}
+.conT{
+	background-color: rgba(4, 88, 97, 0.68);
+
+}
+.conT h1{	
+	font-size: 2em;
+	font-weight: bold;
+	padding: 3% 25% 0% 10%;
+	color: white;
+	text-shadow: 2px 2px 3px black;
+
+}
+
+.conT h2{
+	font-size: 1.2em;
+	font-weight: bold;
+	padding: 0% 0% 2% 10%;
+	color: white;
+	text-shadow: 2px 2px 3px black;
+
+}
+.conT form{
+	margin-left: 10%;
+
+}
+.conT{
+	font-size: 25px!IMPORTANT;
+	font-weight: bold;
+}
+.conT input{
+	margin-left: 5%;
+	width: 81%!IMPORTANT;
+}
+
+.conT button{
+	padding: 3px;
+	margin: 3%;
+	width: 150px;
+	box-shadow:2px 2px 3px black; 
+	border-radius: 15px;
+	transition: all .3s;
+}
+
+
+.conT button:hover{
+	background-color: #ffbc00;	
+}
+
+.conT textarea{
+	width:96%!IMPORTANT;
+	height: 150px;
+}
+/*-----contact Rightside Pannel----*/
+
+.condetail{
+	text-align: justify;
+	font-size: 25px!IMPORTANT;
+	padding: 3%;
+	margin: 16%!IMPORTANT;
+	color: white;
+	width: 80%!IMPORTANT;
+	background-color: rgba(0,0,0,.5);
+}
+
+.condetail i{
+	font-size: 25px;
+	text-align: center;
+}
+
+/*-----Ending---*/
+.end-links{
+	text-align: center;
+}
+
+
+.ending{
+	background-color: black;
+	text-align: center;
+	padding: .5%;
+	font-size: 20px;
+}
+
+.ending h6{
+	color: white;
+}
+.ending i{
+	font-size: 25px;
+	padding: 0%;
+}
+
+
+
+
+
+
+
+
+
