@@ -78,6 +78,7 @@
 	margin: 1.5%;
 	box-shadow: 0px 0px 5px black;
 	padding: 1%;
+	position: relative;
 }
 
 .top nav{
@@ -105,7 +106,14 @@
 .top nav a:hover{
 	color: orange;
 }
-
+#toggle {
+	
+	position: absolute;
+	z-index: 1;
+	top: 7%;
+	right: 10%;
+}
+#toggle a { color: #fff;  }
 
 /*----About-----*/
 
