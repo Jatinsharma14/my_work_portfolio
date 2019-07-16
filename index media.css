@@ -672,10 +672,15 @@
 	border-bottom-left-radius: 30px;
 	border-bottom-right-radius: 30px;
 	border: solid 2px white;
+	overflow: hidden;
+
 }
 .top nav a{
+	line-height: 2em!IMPORTANT;
+	margin-top: -8px!IMPORTANT;
 	color: white;
-	font-size: 12px!IMPORTANT;
+	display: block;
+	font-size: 13px!IMPORTANT;
 	text-decoration: none;
 	margin-left: 4%;
 	transition: all .3s;
@@ -685,6 +690,10 @@
 
 .top nav a:hover{
 	color: orange;
+}
+
+#toggle{
+	margin-top: 3px!IMPORTANT;
 }
 
 
@@ -1234,6 +1243,7 @@
 }
 
 .top nav{
+	overflow: hidden;
 	background-color:green;
 	text-align: center;
 	width:100%!IMPORTANT;
@@ -1246,8 +1256,11 @@
 	border: solid 2px white;
 }
 .top nav a{
+	margin-top: -3%!IMPORTANT;
 	color: white;
-	font-size: 15px!IMPORTANT;
+	line-height: 35px!IMPORTANT;
+	display: block;
+	font-size: 19px!IMPORTANT;
 	text-decoration: none;
 	margin-left: 4%;
 	transition: all .3s;
@@ -1257,6 +1270,10 @@
 
 .top nav a:hover{
 	color: orange;
+}
+
+#toggle{
+	margin-top: 4px!IMPORTANT;
 }
 
 
@@ -1815,10 +1832,14 @@
 	border-bottom-left-radius: 30px;
 	border-bottom-right-radius: 30px;
 	border: solid 2px white;
+	overflow: hidden;
 }
 .top nav a{
+	margin-top: -2.5%!IMPORTANT;
 	color: white;
-	font-size: 20px!IMPORTANT;
+	line-height: 37px!IMPORTANT;
+	display: block;
+	font-size: 19px!IMPORTANT;
 	text-decoration: none;
 	margin-left: 4%;
 	transition: all .3s;
@@ -1829,7 +1850,9 @@
 .top nav a:hover{
 	color: orange;
 }
-
+#toggle{
+	margin-top: 4px!IMPORTANT;
+}
 
 /*----About-----*/
 

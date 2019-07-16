@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>professional Portfolio</title>
-
+<meta charset="utf-8">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="Boot-css/bootstrap.min.css">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -146,15 +146,18 @@
 <div class="navigation">
 
 		<div class="top">
-			<nav>
+		<nav>
 			<a href="index.html">Home</a>
-			<a href="index.html">About</a>
-			<a href="index.html">Portfolio</a>
-			<a href="index.html">Education</a>
-			<a href="index.html">Skills</a>
-			<a href="index.html">Contacts</a>
+			<a href="index.html#About">About</a>
+			<a href="index.html#Potrfolio">Portfolio</a>
+			<a href="index.html#education">Education</a>
+			<a href="index.html#Kskills">Skills</a>
+			<a href="index.html#Contacts">Contacts</a>
 
 		</nav>
+			<div id="toggle">
+				<i class="fa fa-bars"style="color: white;"></i>
+			</div>
 			
 		</div>
 	
@@ -346,7 +349,7 @@
 
 
 		<!------Photography------>
-			<h5> Photography</h5>
+			<h5 id="Photolink"> Photography</h5>
 
 	<div class="row" id="row3" data-aos="fade-right">
 
@@ -524,10 +527,25 @@
 
 </div>
 
-
+<script src="jquery.min.js"></script>
 <script src="aos.js"></script>
 <script>
  AOS.init();
+</script>
+
+<script>
+$(document).ready(function() {
+	$("#toggle").click(function() {
+		// alert($(".top nav").height());
+		if ($(".top nav").height() > "11" && $(".top nav").height() < "14" ) {
+			// $(".top nav").css("height","100px");
+			$(".top nav").animate({height:'100px'}, 500);
+		} else {
+			// $(".top nav").css("height","23px");
+			$(".top nav").animate({height:'23px'}, 500);
+		}
+	});
+});
 </script>
 
 </body>

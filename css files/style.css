@@ -386,6 +386,11 @@
 	margin: 1%;
 }
 
+.imageshow h5{
+	color: white;
+}
+
+
 .dark-cover{
 	position: absolute;
 	background-color: rgba(0,0,0,.6);
@@ -473,6 +478,9 @@
 	position: relative;
 	margin-top: 5%;
 }
+label{
+	color: white;
+}
 .conT{
 	background-color: rgba(4, 88, 97, 0.68);
 
@@ -503,6 +511,7 @@
 	font-weight: bold;
 }
 .conT input{
+	padding-left: 1%;
 	margin-left: 5%;
 	width: 50%;
 }
@@ -522,7 +531,8 @@
 }
 
 .conT textarea{
-	width: 67%;
+	padding-left: 1%;
+	width: 66%;
 	height: 155px;
 }
 /*-----contact Rightside Pannel----*/
@@ -538,7 +548,8 @@
 }
 
 .condetail i{
-	font-size: 25px;
+	font-size: 27px;
+	margin-right: 2%;
 	text-align: center;
 }
 
