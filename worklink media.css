@@ -2566,7 +2566,7 @@
 
 	/*-----Work Links of website designing-----*/
 	.king{
-		height: 35em;
+		height: 40em!IMPORTANT;
 		position: relative;
 		border: .1px solid;
 	 	background-color: #7de8f9;

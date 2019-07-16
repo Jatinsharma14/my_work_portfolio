@@ -114,6 +114,17 @@
 
 }
 
+.fixed-nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: #fff;
+	margin: 0;
+	z-index: 999;
+
+}
+
 .top nav a:hover{
 	color: orange;
 }
@@ -685,6 +696,17 @@
 	margin-left: 4%;
 	transition: all .3s;
 
+
+}
+
+.fixed-nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: #fff;
+	margin: 0;
+	z-index: 999;
 
 }
 
@@ -1268,6 +1290,17 @@
 
 }
 
+.fixed-nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: #fff;
+	margin: 0;
+	z-index: 999;
+
+}
+
 .top nav a:hover{
 	color: orange;
 }
@@ -1844,6 +1877,17 @@
 	margin-left: 4%;
 	transition: all .3s;
 
+
+}
+
+.fixed-nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: #fff;
+	margin: 0;
+	z-index: 999;
 
 }
 
@@ -2425,6 +2469,17 @@
 
 }
 
+.fixed-nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: #fff;
+	margin: 0;
+	z-index: 999;
+
+}
+
 .top nav a:hover{
 	color: orange;
 }
@@ -2999,6 +3054,17 @@
 
 }
 
+
+.fixed-nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: #fff;
+	margin: 0;
+	z-index: 999;
+
+}
 .top nav a:hover{
 	color: orange;
 }
@@ -3576,6 +3642,17 @@
 
 }
 
+.fixed-nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: #fff;
+	margin: 0;
+	z-index: 999;
+
+}
+
 .top nav a:hover{
 	color: orange;
 }
@@ -3855,6 +3932,7 @@
 .imageshow img{
 	margin: 1%!IMPORTANT;
 	width: 450px!IMPORTANT;
+	height: 400px;
 }
 
 
@@ -4137,6 +4215,17 @@
 
 }
 
+.fixed-nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: #fff;
+	margin: 0;
+	z-index: 999;
+
+}
+
 .top nav a:hover{
 	color: orange;
 }
@@ -4416,6 +4505,7 @@
 .imageshow img{
 	margin: 1%!IMPORTANT;
 	width: 550px!IMPORTANT;
+		height: 500px;
 }
 
 

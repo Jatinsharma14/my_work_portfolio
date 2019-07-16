@@ -545,6 +545,14 @@ $(document).ready(function() {
 			$(".top nav").animate({height:'23px'}, 500);
 		}
 	});
+
+	$(window).scroll(function() {
+		if ($(this).scrollTop() >= 500) {
+			$(".navigation").addClass("fixed-nav");
+		} else {
+			$(".navigation").removeClass("fixed-nav");
+		}
+	});
 });
 </script>
 
