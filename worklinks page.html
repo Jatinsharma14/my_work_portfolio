@@ -54,9 +54,9 @@
 <a href="http://jatinsharma.galaxeepro.com/sites/Fantasy%20web%20theme%20Work/">
 		<div class="outerA" id="outerC-top">
 			<div class="images">
-				<img width="150" src="web/web9.png">
-				<img width="150" src="web/web8.png">
-				<img width="150" src="web/web7.png">
+				<img width="150" src="Web/web9.png">
+				<img width="150" src="Web/web8.png">
+				<img width="150" src="Web/web7.png">
 				
 			</div>
 			
@@ -72,9 +72,9 @@
 <a href="http://jatinsharma.galaxeepro.com/sites/Project%20work/Home.html">
 		<div class="outerA" id="outerB-top">
 			<div class="images">
-				<img width="150" src="web/web6.jpg">
-				<img width="150" src="web/web5.jpg">
-				<img width="170" src="web/web4.jpg">
+				<img width="150" src="Web/web6.jpg">
+				<img width="150" src="Web/web5.jpg">
+				<img width="170" src="Web/web4.jpg">
 				
 			</div>
 			
@@ -90,9 +90,9 @@
 <a href="http://jatinsharma.galaxeepro.com/sites/basend-16%20Feb%202019/">
 		<div class="outerA" id="outerA-top">
 			<div class="images">
-				<img width="150" src="web/web3.png">
-				<img width="150" src="web/web2.png">
-				<img width="150" src="web/web1.jpg">
+				<img width="150" src="Web/web3.png">
+				<img width="150" src="Web/web2.png">
+				<img width="150" src="Web/web1.jpg">
 				
 			</div>
 			
@@ -316,6 +316,14 @@ $(document).ready(function() {
 		} else {
 			// $(".top nav").css("height","23px");
 			$(".top nav").animate({height:'23px'}, 500);
+		}
+	});
+
+	$(window).scroll(function() {
+		if ($(this).scrollTop() >= 500) {
+			$(".navigation").addClass("fixed-nav");
+		} else {
+			$(".navigation").removeClass("fixed-nav");
 		}
 	});
 });
